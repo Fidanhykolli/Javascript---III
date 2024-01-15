@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(73, 73, 73, 0.562);
+}
+
+.container h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: rgb(174, 174, 245);
+}
+
+header a {
+  margin-left: 20px;
+  font-size: 22px;
+  -webkit-text-decoration: NONE;
+          text-decoration: NONE;
+  color: whitesmoke;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+form div {
+  font-size: 20px;
+}
+
+form .form-control {
+  background-color: gray;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; /* Aggiunto il bordo alla transizione */
+}
+
+form .form-control:focus {
+  background-color: rgb(110, 110, 190);
+  border-color: transparent; /* Bordo trasparente durante il focus */
+}/*# sourceMappingURL=style.css.map */

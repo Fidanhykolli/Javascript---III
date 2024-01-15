@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adozione Animali
+    </title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+
+<header> 
+    <div class="nav d-flex align-items-center justify-content-center">
+    <img src="adoption2-removebg-preview.png" alt="" width="250px">
+    <div class="d-flex">
+        <a href="#">HOME</a>
+        <a href="#">CONTATTI</a>
+        <a href="#">LAVORA CON NOI</a>
+    </div>
+    </div>
+</header>
+    <main>
+        <div class="container">
+          <div class="row justify-content-center mt-2">
+            <div class="col-12 col-md-8 col-lg-6">
+              <h2>Adozione Illegale Animali</h2>
+              <form>
+                <div class="mb-2">
+                  <label for="firstName" class="form-label">Nome Animale</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="namePet"
+                    required
+                  />
+                </div>
+  
+                <div class="mb-2">
+                  <label for="lastName" class="form-label">Proprietario</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="ownerName"
+                    required
+                  />
+                </div>
+  
+                <div class="mb-2">
+                  <label for="phone" class="form-label">Specie</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="species"
+                    required
+                  />
+                </div>
+  
+                <div class="mb-2">
+                  <label for="email" class="form-label">Breed</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="breeds"
+                    required
+                  />
+                </div>
+  
+                <button type="submit" class="btn btn-warning">SALVA</button>
+              </form>
+            </div>
+          </div>
+          <div
+            class="row justify-content-center mt-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3"
+            id="pets1"
+          >
+
+          </div>
+        </div>
+      </main>
+    
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous">
+    </script>
+
+    <script src="cards.js"></script>
+</body>
+</html>
